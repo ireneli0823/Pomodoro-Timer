@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		092543CE2D5E5FB2004835A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 092543CD2D5E5F9F004835A9 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		096BDCAC2D5C386B002D14AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,20 +28,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092543CD2D5E5F9F004835A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		096BDC9A2D5C3869002D14AF /* tomato_timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomato_timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		096BDCAB2D5C386B002D14AF /* tomato_timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomato_timerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		096BDCB52D5C386B002D14AF /* tomato_timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomato_timerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		092543CB2D5E5F35004835A9 /* Exceptions for "tomato_timer" folder in "tomato_timer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				tomato_timerTests/tomato_timerTests.swift,
+			);
+			target = 096BDC992D5C3869002D14AF /* tomato_timer */;
+		};
+		092543CC2D5E5F35004835A9 /* Exceptions for "tomato_timer" folder in "tomato_timerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				tomato_timerTests/tomato_timerTests.swift,
+			);
+			target = 096BDCAA2D5C386B002D14AF /* tomato_timerTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		096BDC9C2D5C3869002D14AF /* tomato_timer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				092543CB2D5E5F35004835A9 /* Exceptions for "tomato_timer" folder in "tomato_timer" target */,
+				092543CC2D5E5F35004835A9 /* Exceptions for "tomato_timer" folder in "tomato_timerTests" target */,
+			);
 			path = tomato_timer;
-			sourceTree = "<group>";
-		};
-		096BDCAE2D5C386B002D14AF /* tomato_timerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = tomato_timerTests;
 			sourceTree = "<group>";
 		};
 		096BDCB82D5C386B002D14AF /* tomato_timerUITests */ = {
@@ -75,8 +96,8 @@
 		096BDC912D5C3869002D14AF = {
 			isa = PBXGroup;
 			children = (
+				092543CD2D5E5F9F004835A9 /* README.md */,
 				096BDC9C2D5C3869002D14AF /* tomato_timer */,
-				096BDCAE2D5C386B002D14AF /* tomato_timerTests */,
 				096BDCB82D5C386B002D14AF /* tomato_timerUITests */,
 				096BDC9B2D5C3869002D14AF /* Products */,
 			);
@@ -129,9 +150,6 @@
 			);
 			dependencies = (
 				096BDCAD2D5C386B002D14AF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				096BDCAE2D5C386B002D14AF /* tomato_timerTests */,
 			);
 			name = tomato_timerTests;
 			packageProductDependencies = (
@@ -212,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092543CE2D5E5FB2004835A9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
