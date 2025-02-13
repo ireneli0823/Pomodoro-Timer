@@ -163,6 +163,7 @@ struct CustomButtonStyle: ButtonStyle {
 
 // Quick Select Button Component
 struct QuickSelectButton: View {
+struct QuickSelectButton: View {
     let label: String
     let time: Int
     let action: (Int) -> Void
