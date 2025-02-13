@@ -11,7 +11,8 @@ import SwiftUI
 struct tomato_timerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // 这里必须正确调用 ContentView
         }
     }
 }
+
